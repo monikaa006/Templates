@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bug Tracker Form</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+
+            <strong>Bug Tracker</strong>
+            <br>
+            <div class="report">
+                Report all bugs!
+            </div>
+
+            <br>
+        </div>
+        <br>
+        <div class="form">
+            <form>
+                <div class="label">
+
+                    <label for="bug title">Bug title</label><span style="color: red;">*</span>
+                </div>
+                <div class="input">
+
+                    <input type="text" id="bug title" style="height: 28px; width: 233px;" name="Bug title"
+                        required><br><br>
+                </div>
+
+
+                <div class="label">
+
+                    <label for="bug issue">Bug issue</label><span style="color: red;">* </span>
+                </div>
+                <div class="input">
+                    <textarea name="Bug issue" rows="5" cols="30" required></textarea><br><br>
+                </div>
+                <div class="label">
+
+                    <label for="operating system">operating system</label><span style="color: red;">*</span>
+                </div>
+                <div class="input">
+
+                    <select id="operating system" style="width: 233px; height: 30px;" name="operating system" required>
+                        <option value="0">select</option>
+                        <option value="1">windows</option>
+                        <option value="2">ubantu</option>
+
+                    </select>
+                    <br>
+                </div>
+
+
+                <div class="label">
+                    <label for="browser">Browser</label><span style="color: red;">*</span><br>
+                </div>
+                <div class="input">
+                    <ul style="list-style: none;">
+                        <li>
+                            <input type="radio" id="browser" name="Internet Explorer" value="Internet Explorer">
+                            <label for="browser">Internet Explorer</label><br><br>
+                        </li>
+                        <li>
+                            <input type="radio" id="browser" name="chrome" value="Chrome">
+                            <label for="browser">chrome</label><br><br>
+                             
+                        </li>
+                        <li>
+                            <input type="radio" id="browser" name="firefox" value="firefox">
+                            <label for="browser">firefox</label><br><br>
+                        </li>
+                        <li>
+                            <input type="radio" id="browser" name="safari" value="safari">
+                            <label for="browser">safari</label><br><br>
+                        </li>
+                         <li>
+                            <input type="radio" id="browser" name="other" value="other">
+                            <label for="browser">others</label><br><br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="label">
+
+                    <label for="assigned to">assigned to</label><span style="color:red;">*</span>
+                </div>
+                <div class="input">
+
+                    <select id="assigned to" style="width:233px; height:30px;" name="assigned to">
+                        <option value="0">select</option>
+                    </select><br>
+                </div>
+                <div class="label">
+                    <label for="Priority">Priority</label><span style="color:red ;">* </span>
+                </div>
+                <div class="input">
+
+                    <select id="Priority" style="width:233px; height:30px;" name="Priority">
+                        <option value="0">select</option>
+                    </select><br>
+                </div>
+                <div class="label">
+                    <label for="screenshot">screenshot</label>
+                </div>
+                <div class="input">
+                    <input type="file" id="screenshot"
+                        style="border: 2px gray;padding-top: 25px; padding-left: 28px; border-style: dashed; width: 326px; height: 60px;"
+                        name="screenshot"><br>
+                </div>
+                <div class="label">
+                    <label for="status">status</label><span style="color:red ;">* </span>
+                </div>
+                <div class="input">
+
+                    <select id="status" style="width:233px; height:30px;" name="status">
+                        <option value="0">select</option>
+                    </select><br>
+                </div>
+                <div class="button">
+                    <button type="submit" style="background-color:red ; padding:14px 40px; margin-right:40px;"
+                        form="form1" value="Submit">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

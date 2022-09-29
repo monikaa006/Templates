@@ -1,0 +1,180 @@
+
+        .start {
+            padding-top: 10px;
+            padding-left: 30px;
+            background-color: rgb(233, 198, 204);
+            height: 30px;
+            width: 90%;
+
+        }
+        .button{
+          position: relative;
+          text-align: center;
+        }
+        .line1{
+          font-size: 30px;
+          position: absolute;
+          top: 30%;
+          left: 35%;
+          color:solid white;
+        }
+        .line2{
+          font-size: 80px;
+          position: absolute;
+          top: 35%;
+          left: 30%;
+          color:solid black;
+        }
+        
+        .line3{
+          font-size: 30px;
+          position: absolute;
+          top: 50%;
+          left: 20%;
+          color:solid black;
+        }
+        
+        
+        ul{
+            list-style: none;
+            text-decoration: none;
+            padding-top: 0px;
+            margin-top: 0px;
+
+        }
+
+        li {
+            position: relative;
+            float: right;
+            
+            display: list-item;
+
+
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+          }
+
+        li a {
+
+            padding: 8px;
+
+        }
+        li.dropdown {
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+          dropdown:hover .dropdown-content {
+            display: block;
+          }
+          .img2{
+              image-orientation: from-image;
+          }
+    
+        #box1{
+          position: absolute;
+          left:1%;
+          top: 180%;
+          background-color: rgb(255, 193,193);
+  width: 300px;
+  border: 15px whitesmoke;
+  padding: 50px;
+  margin-top: 0px;
+  margin-left: 622px;
+  padding-bottom: 60PX;
+  text-align: center;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+#box2{
+  position: absolute;
+  left: 25%;
+  top: 180%;
+  
+  background-color:rgb(255, 193, 193);
+width: 300px;
+border: 15px whitesmoke;
+padding: 50px;
+margin-top: 0px;
+margin-left: 622px;
+padding-bottom: 60PX;
+text-align: center;
+padding-left: 40px;
+box-sizing: border-box;
+}
+#box3{
+   
+  position:absolute;
+  text-align: center;
+  top:215%;
+  left: 40%;
+  box-sizing: border-box;
+  background-color: lightcoral;
+
+}      
+   #text{
+    position:absolute;
+  text-align: center;
+  top:220%;
+  left: 35%;
+  box-sizing: border-box;
+  font-size: 45px;
+
+   } 
+   .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  .row::before {
+    margin-top: 430px;
+    
+    content: "";
+    clear: three;
+    display: table;
+    box-sizing: border-box;
+  }  
+  .bgi-img{
+    margin-top: 600px;
+     /* The image used */
+  background-image:url(./pictures/carousel-1.jpg);
+   
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ .form{
+position:absolute;
+left: 40%;
+top: 20%;
+margin: 20px;
+max-width: 300px;
+padding: 16px;
+background-color:rgb(165, 164, 164);
+opacity: 40%;
+ }
+   
+   
+
+    
